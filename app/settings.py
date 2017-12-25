@@ -1,5 +1,6 @@
 # Flask settings
-FLASK_SERVER_NAME = '0.0.0.0:5001'
+FLASK_SERVER_NAME = '0.0.0.0'
+FLASK_SERVER_PORT = '5001'
 FLASK_DEBUG = True
 
 # Flask-Restplus settings
