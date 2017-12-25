@@ -10,4 +10,4 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python", "/app/starter.py"]
+ENTRYPOINT ["python", "app/starter.py"]
